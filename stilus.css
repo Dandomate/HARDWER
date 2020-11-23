@@ -1,0 +1,258 @@
+#kep1 {
+    width: 100%;
+    height: auto;
+}
+
+#wrapper {
+    text-align: left;
+    width: auto;
+    margin: 0px auto;
+}
+
+h2 {
+    background-color: transparent;
+    text-align: left;
+    color: black;
+    text-shadow: 2px 2px 5px saddlebrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+header {
+    color: black;
+    text-shadow: 2px 2px 5px saddlebrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(99, 99, 99);
+    text-align: center;
+    background-size: auto;
+    width: auto;
+    height: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: burlywood;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: blanchedalmond;
+}
+
+.topnav a:hover {
+    background-color: rosybrown;
+    color: black;
+}
+
+section {
+    height: 100px;
+}
+
+#egy {
+    color: black;
+    text-shadow: 2px 2px 5px saddlebrown;
+    background-color: transparent;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    background-image: url("kep/varos.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 720px;
+    background-size: cover;
+}
+
+#ketto {
+    background-color: transparent;
+    text-align: left;
+    color: black;
+    text-shadow: 2px 2px 5px saddlebrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    height: 300px;
+}
+
+#harom {
+    background-color: transparent;
+    text-align: left;
+    color: black;
+    text-shadow: 2px 2px 5px saddlebrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    height: 300px;
+}
+
+#negy {
+    text-align: left;
+    color: black;
+    background-color: burlywood;
+    text-shadow: 2px 2px 5px saddlebrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    height: auto;
+    background-image: url("kep/szurkeseg.jpg");
+    background-size: auto;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+#ot {
+    text-align: left;
+    color: black;
+    background-color: burlywood;
+    text-shadow: 2px 2px 5px saddlebrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    height: auto;
+    background-image: url("kep/szurkeseg.jpg");
+    background-size: auto;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+#hat {
+    text-align: left;
+    color: black;
+    background-color: burlywood;
+    text-shadow: 2px 2px 5px saddlebrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    height: auto;
+    background-image: url("kep/szurkeseg.jpg");
+    background-size: auto;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+#het {
+    text-align: left;
+    color: black;
+    background-color: burlywood;
+    text-shadow: 2px 2px 5px saddlebrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    height: 240px;
+    background-image: url("kep/szurkeseg.jpg");
+    background-size: auto;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 5%;
+    text-align: center;
+    background-image: url("kep/papir1.jpg");
+    background-size: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 5%;
+    text-align: center;
+    background-image: url("kep/papir1.jpg");
+    background-size: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-size: cover;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100px;
+    height: 100px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.desc {
+    font-size: 10px;
+}
+
+.sor {
+    float: center;
+    width: auto;
+    height: auto;
+}
+
+.oszlop {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 50px;
+}
+
+.oszlop2 {
+    float: right;
+    width: auto;
+    height: auto;
+    margin-right: 300px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+#kam {
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+table {
+    background-color: rgb(99, 99, 99);
+    opacity: 0.8;
+}
